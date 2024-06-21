@@ -1,0 +1,167 @@
+[
+    {
+         "city": "دمشق",
+         "dital":"مساحة 100م",
+    "price":"1000000",
+    "aria": "مشروع دمر",
+    "gar": "نعم ",
+    "floor":"الثاني" ,
+    "mafrosh": "نعم",
+    "masaha": "14م",
+    "have":"طابو" ,
+    "img1":"image/image.t12.jpg",
+    "img2":"image/image.t24.jpg"
+    }
+    ,
+    {
+        "city": "دمشق",
+        "dital":"مساحة 150م",
+    "price":"4000000",
+    "aria": "المزة",
+    "gar": "نعم ",
+    "floor":"الثالث" ,
+    "mafrosh": "نعم",
+    "masaha": "20م",
+    "have":"طابو",
+    "img1":"image/image.t17.jpg",
+    "img2":"image/image.t15.jpg"
+    }
+    ,
+    {
+        "city": "دمشق",
+        "dital":"مساحة 100م",
+    "price":"2000000",
+    "aria": "ركن الدين",
+    "gar": "نعم ",
+    "floor":"الثاني" ,
+    "mafrosh": "نعم",
+    "masaha": "14م",
+    "have":"طابو" ,
+    "img1":"image/image.t8.jpg",
+    "img2":"image/image.t26.jpg"
+    }
+    ,
+    {
+        "city": "دمشق",
+        "dital":"مساحة 200م",
+    "price":"8000000",
+    "aria": "كفرسوسة",
+    "gar": "نعم ",
+    "floor":"الرابع",
+    "mafrosh": "نعم",
+    "masaha": "25م",
+    "have":"طابو" ,
+    "img1":"image/image.t27.jpg",
+    "img2":"image/image.t29.jpg"
+    }
+    ,
+    {
+        "city": "دمشق",
+        "dital":"مساحة 180م",
+    "price":"3000000",
+    "aria": "دوما",
+    "gar": "نعم ",
+    "floor":"الثالث" ,
+    "mafrosh": "نعم",
+    "masaha": "16م",
+    "have":"طابو",
+    "img1":"image/photo.jpg",
+    "img2":"image/image.t21.jpg"
+    
+    }
+    ,
+    {
+        "city": "دمشق",
+        "dital":"مساحة 200م",
+    "price":"6000000",
+    "aria": "المالكي",
+    "gar": "نعم ",
+    "floor":"أرضي " ,
+    "mafrosh": "نعم",
+    "masaha": "25م",
+    "have":"طابو" ,
+    "img1":"image/image.t1.jpg",
+    "img2":"image/image.t25.jpg"
+    
+    }
+    ,
+    {
+        "city": "حماة",
+        "dital":"مساحة 125م",
+    "price":"2000000",
+    "aria": "مصياف",
+    "gar": "نعم ",
+    "floor":"ثاني " ,
+    "mafrosh": "نعم",
+    "masaha": "14م",
+    "have":"طابو" ,
+    "img1":"image/image.t16.jpeg",
+    "img2":"image/image.t11.jpg"
+    
+    }
+    ,
+    {
+        "city": "حماة",
+        "dital":"مساحة 180م",
+    "price":"3000000",
+    "aria": "وادي العيون",
+    "gar": "لا ",
+    "floor":"أرضي " ,
+    "mafrosh": "لا",
+    "masaha": "16م",
+    "have":"طابو" ,
+    "img1":"image/image.t5.jpeg",
+    "img2":"image/image.t7.jpg"
+    }
+    ,
+    {
+        "city": "دمشق",
+        "dital":"مساحة 150م",
+    "price":"2000000",
+    "aria": "العدوي",
+    "gar": "نعم ",
+    "floor":"الثالث" ,
+    "mafrosh": "نعم",
+    "masaha": "14م",
+    "have":"طابو",
+    "img1":"image/image.t10.jpg",
+    "img2":"image/image.t14.jpg"
+    
+    }
+    ,
+    {
+        "city": "دمشق",
+        "dital":"مساحة 200م",
+    "price":"4000000",
+    "aria": "الشعلان",
+    "gar": "نعم ",
+    "floor":"الخامس" ,
+    "mafrosh": "نعم",
+    "masaha": "21م",
+    "have":"طابو" ,
+    "img1":"image/image.t31.jpg",
+    "img2":"image/image.t3.jpg"
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ]

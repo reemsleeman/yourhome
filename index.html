@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR HOME </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+</head>
+<body>
+<header>
+    <a href="#" class="logo"> YOUR HOME
+    </a>
+    <nav class="navigation">
+<a href="#properties">properties</a>
+<a href="#home ">Home</a>
+<a href="#our stor">our stor </a>
+<a href="#about us">about us</a>
+    </nav>
+</header>
+<section class="main" id="home">
+    <div>
+<h3 >بأشراف الدكتور:مازن خضر</h3><br>
+<p> الجامعة السورية الأفتراضية 
+    TIC-F23-IWB201
+</p>
+<table   class="impor-table" >
+<th>الأسم</th><th>الصف</th><th> id</th>
+<tr> <td>fahed</td><td> C2</td><td>259448</td></tr>
+<tr> <td>reem</td><td> C2</td><td>242456</td></tr>
+<tr> <td>ghazal</td><td> C5</td><td>191590</td></tr>
+<tr> <td>mahmoud</td><td> C5</td><td>193055</td></tr>
+</table>
+
+</div>
+</section>
+<section id="about us">
+    <I><h1 style="  letter-spacing: 1px;color: rgba(0, 0, 255, 0.801); padding: 20px; text-align: center; font-size: 2.5em;" >HOME</h1></I>
+    <p class="house">
+اهلاً بك في موقعنا 
+    </p>
+    <p>نحن شركة بيوت  لنساعدك لتجد ما يناسبك </p>
+
+<div style="margin: 10px; border-radius: 3px; display: flex; justify-content: center; align-items: center;">
+<img src="image/image.jpj.jpg" style="width: 400px; border-radius: 12px ; border: 2px solid  rgba(35, 9, 150, 0.404) ;
+padding:40px ; ; cursor: pointer; transition: 400ms;"  >
+<img src="image/image.jpjj.jpg"  style="width: 400px; border-radius: 12px ; border: 2px solid  rgba(35, 9, 150, 0.404) ;
+padding:40px ; ; cursor: pointer; transition: 400ms;"  >  
+<img src="image/image.jpjjj.jpg"  style="width: 400px; border-radius: 12px ; border: 2px solid  rgba(35, 9, 150, 0.404) ;
+padding:40px ; ; cursor: pointer; transition: 400ms;"  >  
+
+</div>
+
+    <ul type="a">
+<li> أسعار مناسبة</li>
+    <li style="   color:  rgba(65, 65, 209, 0.568);">صور مطابقة للواقع </li>
+<li>عقارات حقيقية </li>
+<li style="   color:  rgba(65, 65, 209, 0.568);">صور حقيقية </li>
+    </ul>
+
+<section class="cards" id="home">
+<h2 class="mm"> : للأعلانات و التواصل  </h2>
+<div class="content">
+    <div class="card">
+    <div class="iconn">
+        <i class="fas fa-phone"></i>
+
+    </div>
+    <div class="info">
+    <h3>الهاتف </h3>
+    <p>
+    
+    +963968135046
+    </p>
+    </div>
+    </div>
+    <div class="content">
+        <div class="card">
+        <div class="iconn">
+            <i class="fas fa-envelope"></i>
+        
+        </div>
+        <div class="info">
+        <h3>الإيميل</h3>
+        <p>
+         houses@gmail.com
+        </p>
+        </div>
+        </div>
+</section>
+
+
+
+
+</div>
+
+
+</section>
+<section id="properties" class="mt-table">
+
+<div class="continer">
+<table border="1" >
+<thead>
+<tr>
+<th>المنطقة</th>
+<th>التفاصيل</th>
+<th>السعر</th>
+<th>اظهار التفاصيل</th>
+<th>الاختيار </th>
+</tr>
+
+</thead>
+<tbody id="flats">
+
+
+
+
+
+
+
+</tbody>
+
+
+</table>
+
+</div>
+</section>
+</div >
+
+<style>
+    .purchase-form-containerr {
+        display: none;
+        text-align: center;
+        
+    }
+
+    .purchase-form-containerr.active {
+        display: block;
+    }
+
+    .continue-button {
+        display: inline-block;
+      
+        background-color:   rgba(65, 65, 209, 0.568);;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        
+    }
+</style>
+
+
+
+<div class="contentt">
+
+<p>. اضغط على زر المتابعة لأكمال العملية .</p>
+
+
+<button class="continue-button" onclick="togglePurchaseForm()" style="font-size: 1.3em; margin: 40px;;">متابعة</button>
+
+<div class="purchase-form-containerr" id="purchaseForm">
+
+  
+    <form id="buyForm" onsubmit="return validateForm()">
+        <label for="fullName">الاسم الكامل:</label>
+        <input type="text" id="fullName" name="fullName" required pattern="[ء-ي ]+">
+
+        <label for="nationalID">الرقم الوطني:</label>
+        <input type="text" id="nationalID" name="nationalID" maxlength="14" required pattern="[0-9]+">
+
+        <label for="birthDate">تاريخ الميلاد:</label>
+        <input type="date" id="birthDate" name="birthDate" required>
+
+        <label for="mobileNumber">رقم الموبايل:</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" required pattern="(09[0-9]{8}|095[0-9]{7})">
+
+        <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+        <!-- حقل Captcha -->
+        <label for="captcha">رمز التحقق:</label>
+        <input type="text" id="captcha" name="captcha" required>
+
+<button type="button" onclick="changeCaptcha()" >تغير الرمز </button>
+<input type="submit" value="أرسال " style="margin: 30px;">
+</form></div>
+
+
+
+
+</div>
+
+<section id="our stor">
+   
+ <h2 style=" color: rgba(0, 0, 255, 0.801); text-align: center; letter-spacing: 1px; font-weight:900; font-size: 2.3em; text-decoration: underline;"> <i>our stor</i> </h2>
+
+<p> :بعض الصور من الشقق المتوفرة لدينا </p>
+
+<div class="piv">
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+    <p class="fottertitle"> Copyrights @<span style="color:rgba(35, 35, 175, 0.719);"> homes</span></p>
+    <div class="social-icon">
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fas fa-phone"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+
+
+    
+</div> 
+    </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="functions.js">
+</script>
+</body>
+</html>
